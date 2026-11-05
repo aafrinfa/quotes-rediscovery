@@ -1,0 +1,18 @@
+{
+  "name": "quote-rediscovery-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "vapid": "web-push generate-vapid-keys"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "node-cron": "^3.0.3",
+    "web-push": "^3.6.7"
+  }
+}
